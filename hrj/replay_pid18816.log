@@ -1,0 +1,24 @@
+JvmtiExport can_access_local_variables 1
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 1
+# 164 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 563552 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2081 1 14279 0 -1
+ciMethod java/lang/Object toString ()Ljava/lang/String; 89 1 22 0 -1
+ciMethod java/lang/String format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; 25 1 22 0 -1
+ciMethod java/lang/Class isAssignableFrom (Ljava/lang/Class;)Z 3081 1 385 0 -1
+ciMethod java/lang/invoke/MethodHandle type ()Ljava/lang/invoke/MethodType; 1041 1 130 0 -1
+ciMethod java/lang/invoke/MethodType parameterType (I)Ljava/lang/Class; 3129 1 1667 0 -1
+ciMethod java/lang/invoke/MethodType parameterCount ()I 3097 1 1416 0 -1
+ciMethod java/lang/invoke/MethodType returnType ()Ljava/lang/Class; 1049 1 131 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1049 1 49274 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 1041 1 31415 0 -1
+ciMethod java/lang/Number <init> ()V 3313 1 12000 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 2049 1 3325 0 -1
+ciMethod java/lang/Integer <init> (I)V 3105 1 7396 0 -1
+ciMethodData java/lang/Object <init> ()V 2 563552 orig 264 72 34 95 102 0 0 0 0 128 4 151 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 187 68 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/Locale getDefault (Ljava/util/Locale$Category;)Ljava/util/Locale; 201 1 56 0 -1
+ciMethodData java/lang/StringBuilder <init> ()V 2 31415 orig 264 72 34 95 102 0 0 0 0 176 147 158 23 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 0 0 0 169 209 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x7a3b oops 0
+ciMethodData java/lang/AbstractStringBuilder <init> (I)V 2 49274 orig 264 72 34 95 102 0 0 0 0 104 84 158 23 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 0 0 0 185 255 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xc003 oops 0
+ciMethodData java/lang/Number <init> ()V 2 12000 orig 264 72 34 95 102 0 0 0 0 128 252 160 23 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 157 1 0 0 17 106 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2d40 oops 0
+ciMethodData java/lang/Object equals (Ljava/lang/Object;)Z 2 14279 orig 264 72 34 95 102 0 0 0 0 232 6 151 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 25 182 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 7 0x20007 0x861 0x38 0x2e62 0x60003 0x2e63 0x18 oops 0

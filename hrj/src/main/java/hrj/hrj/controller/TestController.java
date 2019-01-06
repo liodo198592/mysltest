@@ -1,0 +1,27 @@
+package hrj.hrj.controller;
+
+import java.util.HashMap;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TestController {
+
+    /**
+     * 本地访问内容地址 ：http://localhost:8080/hello
+     * 
+     * @param map
+     * @return
+     */
+    @RequestMapping("/hello")
+    public String helloHtml(HashMap<String, Object> map) {
+        map.put("hello", "欢迎进入HTML页面");
+        return "/index";
+    }
+
+    @RequestMapping("/timelog")
+    public String listtimelog(HashMap<String, Object> map) {
+        return "/tltable";
+    }
+}
